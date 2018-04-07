@@ -1,4 +1,4 @@
-FROM php:7.0-cli-alpine
+FROM php:7.1-cli-alpine
 LABEL maintainer="Takamichi URATA <taka@seraphimis.net>"
 
 COPY script/docker-entrypoint.sh /usr/local/bin
